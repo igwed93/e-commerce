@@ -1,0 +1,35 @@
+{
+  "name": "e-commerce",
+  "version": "1.0.0",
+  "description": "E-commerce platform",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/igwed93/e-commerce.git"
+  },
+  "keywords": [
+    "GET",
+    "POST",
+    "UPDATE",
+    "DELETE"
+  ],
+  "author": "Daniel Igwe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/igwed93/e-commerce/issues"
+  },
+  "homepage": "https://github.com/igwed93/e-commerce#readme",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.12.1",
+    "nodemon": "^3.1.9"
+  }
+}
